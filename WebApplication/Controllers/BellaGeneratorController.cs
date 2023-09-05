@@ -3,9 +3,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using System.Text;
 using System.Text.Json;
-using WebApplication1.Models;
+using WebApplication.Models;
 
-namespace WebApplication1.Controllers
+namespace WebApplication.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

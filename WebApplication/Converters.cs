@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace WebApplication1
+namespace WebApplication
 {
     public class TypeJsonConverter<TBase> : JsonConverter<TBase>
     {

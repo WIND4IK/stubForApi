@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace WebApplication1.Models
+namespace WebApplication.Models
 {
     [JsonDerivedType(typeof(RequestBlock))]
     //[JsonDerivedType(typeof(VariableBlock))]

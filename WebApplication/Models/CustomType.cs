@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace WebApplication1.Models
+namespace WebApplication.Models
 {
     public class CustomType
     {

@@ -1,7 +1,7 @@
-using WebApplication1;
-using WebApplication1.Models;
+using WebApplication;
+using WebApplication.Models;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 
 builder.Logging.ClearProviders().AddConsole().AddFile("Logs/log-{Date}.txt");
 
