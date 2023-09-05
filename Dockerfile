@@ -1,11 +1,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
-WORKDIR /src
+WORKDIR /WebApplication
 EXPOSE 3355
 ENV ASPNETCORE_URLS=http://*:3355
 
-COPY /src/*.csproj .
+COPY /WebApplication/*.csproj .
 RUN dotnet restore
-COPY /src .
+COPY /WebApplication .
 RUN dotnet publish -c Release -o /publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 as runtime
